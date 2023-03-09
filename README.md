@@ -1,24 +1,21 @@
-Phishing website detection system provides strong security mechanism to detect and prevent phishing domains from reaching user. This project presents a simple and portable approach to detect spoofed webpages and solve security vulnerabilities using Machine Learning. 
-It can be easily operated by anyone since all the major tasks are happening in the backend. The user is required to provide URL as input to the GUI and click on submit button. The output is shown as “YES” for phishing URL and “NO” for not phished URL. 
+The phishing website detection system provides a robust security mechanism for detecting and preventing phishing domains from reaching users. Using Machine Learning, this project presents a simple and portable approach to detecting spoofed webpages and resolving security vulnerabilities. Because all of the major tasks are performed in the backend, it can be easily operated by anyone. The user must enter the URL into the GUI and then click the submit button. The output is "YES" for phishing URLs and "NO" for non-phishing URLs.
+
+DEPENDENCIES FOR PYTHON:
 
 
-PYTHON DEPENDENCIES:
+• NumPy, Pandas, and Scikit-learn: Data cleaning, analysis, and modelling.
 
-   • NumPy, Pandas, Scikit-learn: For Data cleaning, Data analysis and Data modelling.
+• Pickle: Used to export the model to a local machine.
 
-   • Pickle: For exporting the model to local machine
+• Tkinter, Pyqt, and QtDesigner: For creating the software's Graphical User Interface (GUI).
  
-   • Tkinter, Pyqt, QtDesigner: For building up the Graphical User Interface (GUI) of the software. 
+Install Anaconda from www.anaconda.com to avoid the hassle of installing independent Python packages and libraries. It is a Python data science platform that includes all of the ML libraries, data analysis libraries, Jupyter Notebooks, Spyder, and other features that make it simple to use and efficient.. 
+
+
+The following steps must be taken in order to run the software code:
 	
- 
-To avoid the pain of installing independent packages and libraries of python, install Anaconda from www.anaconda.com. It is a Python data science platform which has all the ML libraries, Data analysis libraries, Jupyter Notebooks, Spyder etc. built in it which makes it easy to use and efficient. 
-
-
-Steps to be followed for running the code of the software: 
-
-    • Install anaconda in the system.     
-    • gui.py : It contains the code for the GUI and is linked to other modules of the software.
-    • Feature_extractor.py: It contains the code for analysis and data modelling. 
-    • Rf_model.py: It contains the trained machine learning model.
-    • Only gui.py is to be run to execute the whole software and rest of the modules are to be kept in same folder.
- 
+	• Add anaconda to the system.
+	• gui.py: This file contains the GUI code and is linked to other software modules.
+	• Feature extractor.py: This file contains the code for data analysis and modelling.
+	• Rf model.py: This file contains the machine learning model that has been trained.
+	• Only gui.py should be run to run the entire software, and the rest of the modules should be kept in the same folder.
